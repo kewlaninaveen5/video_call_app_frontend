@@ -2,7 +2,7 @@ import React from 'react'
 
 const LoginPage = () => {
   return (
-    <div>LoginPage</div>
+    <div>[Project is still under production, will be ready by 5th Nov 2025] </div>
   )
 }
 
