@@ -1,4 +1,4 @@
-Live at:  [Project is still under production] 
+Live at: https://masterlingo.netlify.app/ [Project is still under production, will be ready by 5th Nov 2025] 
 
 
 # React + Vite
