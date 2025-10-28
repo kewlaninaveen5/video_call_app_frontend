@@ -1,4 +1,4 @@
-import { LoaderIcon, ShipWheel } from 'lucide-react'
+import { ShipWheel } from 'lucide-react'
 import React from 'react'
 
 const PageLoader = () => {

@@ -7,7 +7,7 @@ import { MapPinIcon, ShipWheelIcon, ShuffleIcon } from "lucide-react";
 import { LANGUAGES } from "../constants";
 
 const OnboardingPage = () => {
-  const { isLoading, authUser } = useAuthUser();
+  const { authUser } = useAuthUser();
   const queryClient = useQueryClient();
 
   const [formState, setFormState] = useState({
@@ -22,14 +22,13 @@ const OnboardingPage = () => {
   const {
     mutate: onBoardingMutation,
     isPending,
-    error,
   } = useMutation({
     mutationFn: completeOnboarding,
     onSuccess: () => {
       toast.success("Onboarding Successful");
       queryClient.invalidateQueries({ queryKey: ["authUser"] });
     },
-    onError: ()=> 
+    onError: ()=> console.log("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee")
   });
 
   const handleSubmit = (e) => {
