@@ -23,7 +23,6 @@ console.log("isOnboarded: ", isOnboarded)
 
   return (
     <div className="h-screen" data-theme="night">
-      <button onClick={() => toast.success("Hello World")}>Create Toast</button>
       <Routes>
         <Route
           path="/"
